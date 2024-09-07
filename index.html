@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">  
+
+    <link rel="icon" href="imagens/favicon.ico">
+    <title>Indica Otaku</title>
+
+</head>
+
+<body>
+    <main class="main">
+        <section class="indicar">
+            <h1>INDICA OTAKU</h1>
+            <h2>Indica Otaku é onde vc pode escolher a categoria e ele gera aleatoriamente 2 manga/manhua para leitura
+            </h2>
+            <div class="categorias" id="categorias">
+            </div>
+            <button class="indicar-btn" onclick="indicar()">INDICAR</button>
+        </section>
+        <section class="pesquisar">
+            <h3>Quer algo especifico?</h3>
+            <input type="text" id="pesquisa-input" placeholder="Pesquise o Manga/Manhua">
+            <button class="pesquisa-btn" onclick="pesquisar()">Pesquisar</button>
+        </section>
+    </main>
+    <div class="resultado">
+
+    </div>
+    <footer>
+    <p>Desenvolvido por: <a href="https://github.com/daniel2009az" target="_blank"><img
+                    src="imagens/logotipo-do-github.png"/>Github
+            </a>
+            <a href="https://www.linkedin.com/in/daniel-duarte-azevedo-64590a167/" target="_blank"><img
+                src="imagens/linkedin.png"/>Linkedin
+        </a>
+        </p>
+        <p>&copy; 2024 Daniel Duarte Azevedo, <a href="https://www.alura.com.br/"> <img id="alura-icon" src="imagens/download.jpg" alt="Icone alura"/>Imersão Alura</a> </p>
+    </footer>
+    
+    <script defer src="dados.js"></script>
+    <script defer src="script.js"></script>
+</body>
+</html>
